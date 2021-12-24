@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.headeroption {
+    background: #3399ff no-repeat scroll 56px 18px; 
+    color: white;
+    height: 80px;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-left: 170px;
+    border-radius: 50px;
+}
+
+
+.footeroption {
+    background: #3399ff;
+    height: 80px;
+    overflow: hidden;
+}
+
+.content {
+    background: #f2f2f2;
+    border: 6px solid #3399ff;
+    font-size: 16px;
+    line-height: 22px;
+    min-height: 450px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.footeroption h2{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.tmain{
+    width: 100%;
+    border: 1px solid;
+    margin: 1px 0;
+}
+
+.tmain td{
+    text-align: center;
+}
+
+
+table.tmain tr:nth-child(2n){
+    background: black;
+    height: 30px;
+}
